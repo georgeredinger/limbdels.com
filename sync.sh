@@ -1,3 +1,3 @@
 #!/bin/bash
-s3cmd -P -r --exclude "*.svg" --delete-removed  sync . s3://limbdels.com/
+s3cmd -P -r --exclude "*.svg" --exclude ".git/*" --exclude ".gitignore" --delete-removed  sync . s3://limbdels.com/
 

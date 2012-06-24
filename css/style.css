@@ -1,4 +1,5 @@
 /*
+ * 
  * HTML5 Boilerplate
  *
  * What follows is the result of much research on cross-browser styling.
@@ -36,20 +37,20 @@ html, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
 img
 {
-	opacity:0.4;
-	filter:alpha(opacity=40); /* For IE8 and earlier */
-}
-.transparent {
-	zoom: 1;
-	filter: alpha(opacity=30);
-	opacity: 0.3;
-	width: 100%;
+	opacity:0.2;
+	filter:alpha(opacity=30); /* For IE8 and earlier */
+	width:960px;
+	height: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 10px 10px 50px #990000;
 }
 
 body {
-margin: 0; font-size: 1em; line-height: 1.4; 
-top: 0;
+	font-size: 1em; line-height: 1.4; 
+	width: 960px;
 }
+
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -332,9 +333,14 @@ h3{
 h4{
 	font-size:14px;
 }
-
+#content {
+	margin-top: -800px;
+}
 footer{
+	position: relative;
+	float:top;
 	width:100%;
+	margin-top: 0;
 }
 
 #left {
@@ -354,7 +360,14 @@ footer{
 	text-align:center;
 }
 #main {
-	background: url(./del.png);
-	background-color:green;
-	color: blue;
+//	background: url(./del.png);
+//	background-color:green;
+//	color: blue;
 }
+#main ul {
+  font-family: 'Prata', serif;
+	margin: auto;
+	list-style-image: url("../img/bullet.png"); 
+  width: 20%;
+}
+
