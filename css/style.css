@@ -366,8 +366,7 @@ footer{
 }
 #main ul {
   font-family: 'Prata', serif;
-	margin: auto;
+	margin-left: 100px;
 	list-style-image: url("../img/bullet.png"); 
-  width: 20%;
 }
 
